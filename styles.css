@@ -8,8 +8,19 @@ body {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
-    font-size: small;
+    gap: 50px;
+    font-size: normal;
+    
+}
+
+
+
+.logo img{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    margin-left: 60px;
+    margin-top: 20px;
 
 }
 
@@ -17,8 +28,8 @@ ul {
 footer{
     display: flex ;
     flex-direction: column;
-    background-color: #1F2937 ;
-    gap: 50px;
+    background-color:#836eb8 ;
+    
     color: #F9FAF8;
     
 
@@ -32,12 +43,23 @@ h1 {
 header{
     display: flex;
     justify-content: space-between;
-    padding: 0px 20%;
+    padding: 0 20%;
     
 }
 
-.placeholder {
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.placeholder img {
     background-color: grey;
+    height: 100%;
+    width: 600px;
+    border-radius: 20px;
 }
 
 .website-intro {
@@ -46,6 +68,8 @@ header{
     padding: 0px 20%;
     gap: 10%;
     padding-bottom: 80px;
+    
+    
 
     
 }
@@ -64,7 +88,7 @@ header{
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #53358f;
     border: none;
     padding: 5px 15px;
     color: white;
@@ -86,7 +110,7 @@ button {
 .information h2{
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937;
+    color: #53358f;;
 
 }
 
