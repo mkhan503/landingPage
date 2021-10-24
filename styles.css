@@ -13,12 +13,14 @@ ul {
 
 }
 
-.top{
+.top,
+footer{
     display: flex ;
     flex-direction: column;
     background-color: #1F2937 ;
     gap: 50px;
     color: #F9FAF8;
+    
 
 }
 
@@ -128,6 +130,38 @@ button {
     align-self: flex-end;
     font-weight: bold;
     font-size: 20px;
+}
+
+.sign-up {
+    display: flex;
+    padding: 50px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-window {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+    border-radius: 10px;
+    gap: 30px;
+    color: white;
+
+}
+
+.sign-up-window button {
+    height: fit-content;
+    border:#E5E7EB 2px solid;
+    
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    font-size: smaller;
+    padding: 10px;
 }
 
 
