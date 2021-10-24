@@ -8,8 +8,11 @@ body {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 50px;
+    gap: 100px;
     font-size: normal;
+    padding-right: 50px;
+    font-weight: bolder;
+
     
 }
 
@@ -28,7 +31,7 @@ ul {
 footer{
     display: flex ;
     flex-direction: column;
-    background-color:#836eb8 ;
+    background-color: #210B2C;
     
     color: #F9FAF8;
     
@@ -45,6 +48,10 @@ header{
     justify-content: space-between;
     padding: 0 20%;
     
+}
+.right-links {
+    align-self: center;
+
 }
 
 .logo {
@@ -98,24 +105,29 @@ button {
 }
 
 .information {
-    
+    background-color: #55286F;    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 5% 20%;
+    color: white;
     
 }
 
 .information h2{
     font-size: 36px;
     font-weight: bolder;
-    color: #53358f;;
+    
 
 }
 
 .each-image {
     width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -127,15 +139,22 @@ button {
 
 .info-images {
 
-    border: #3882F6 3px solid;
+    border: #AE759F 3px solid;
     border-radius: 15px;
     height: 140px;
+    width: 140px;
 
     
 }
 
+.each-image p {
+    text-align: center;
+}
+
+
+
 .testimonials {
-    background-color: #E5E7EB;
+    background-color: #BC96E6;
     display: flex;
     flex-direction: column;
     padding: 5% 20%;
@@ -164,14 +183,14 @@ button {
 }
 
 .sign-up-window {
-    background-color: #3882F6;
+    background-color: #D8B4E2;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 60px;
     border-radius: 10px;
     gap: 30px;
-    color: white;
+    
 
 }
 
